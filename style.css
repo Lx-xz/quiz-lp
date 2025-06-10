@@ -149,3 +149,13 @@ body {
         }
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 7rem 5%;
+        
+        header {
+            width: 95%;
+        }
+    }
+}
