@@ -19,6 +19,7 @@ body {
         background: #f7e8da;
         border: 0.1rem solid #685046;
         border-radius: 0.75rem;
+        color: #685046;
         overflow: hidden;
         position: fixed;
         top: 1rem;
