@@ -442,11 +442,11 @@ function setGame(questions) {
         answers.className = "answers"
         let btTrue = document.createElement("button")
         btTrue.className = "buttons T"
-        btTrue.innerHTML = "True"
+        btTrue.innerHTML = "Verdadeiro"
         btTrue.addEventListener("click", () => checkAnswer(q.id, true, answers))
         let btFalse = document.createElement("button")
         btFalse.className = "buttons F"
-        btFalse.innerHTML = "False"
+        btFalse.innerHTML = "Falso"
         btFalse.addEventListener("click", () => checkAnswer(q.id, false, answers))
         answers.appendChild(btTrue)
         answers.appendChild(btFalse)
