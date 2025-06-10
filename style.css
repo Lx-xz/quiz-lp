@@ -150,7 +150,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body {
         padding: 7rem 5%;
         
